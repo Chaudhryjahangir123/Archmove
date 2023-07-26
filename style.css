@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+body {
+  background-color: #171717;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family: manrope;
+  background-color: #171717;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 40px;
+}
+
+.text {
+  font-family: 'Times New Roman', Times, serif;
+  width: 550px;
+  height: 400px;
+  margin: 50px;
+  margin-right: 20px;
+  color: white;
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.text span {
+  color: #fd665e;
+}
+
+.logo {
+  width: 80px;
+  height: 40px;
+}
+
+.buttons {
+  margin-left: auto;
+  font-family: manrope;
+}
+
+.button2 {
+  background-color: #fd665e;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: manrope;
+}
+
+.button {
+  background-color: #171717;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.fimg {
+  margin: 60px;
+  margin-top: -30px;
+  float: right;
+  height: 400px;
+  width: 740px;
+}
+
+.content {
+  font-weight: bold;
+  font-size: medium;
+  margin: 90px;
+  color: white;
+  display: flex;
+  align-items: left;
+  margin-top: -160px;
+  margin-bottom: 30px;
+  font-size: medium;
+  font-family: manrope;
+  width: 300px;
+}
+
+.button3 {
+  font-weight: bold;
+  background-color: #fd665e;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 110px;
+  height: 50px;
+  width: 150px;
+  border-radius: 6px;
+  margin-top: -100px;
+  margin-left: 85px;
+}
+
+.text2 {
+  font-family: 'Times New Roman', Times, serif;
+  width: 550px;
+  height: 400px;
+  margin: 50px;
+  margin-left: 110px;
+  margin-top: 160px;
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.secimg {
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+}
+
+.thimg {
+  margin-left: 90px;
+  margin-top: 100px;
+  float: left;
+}
+
+.thhead {
+  height: 150px;
+  font-weight: bolder;
+  width: 450px;
+  display: flex;
+  justify-items: center;
+  margin-left: 60px;
+  float: left;
+  margin-top: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 60px;
+}
+
+.icon-text {
+  font-weight: bolder;
+  font-family: manrope;
+  display: flex;
+  align-items: center;
+  margin-left: 56px;
+  margin-top: 100px;
+  float: left;
+  color: #fff;
+  width: 400px;
+  font-size: 15px;
+}
+
+.icon-text img {
+  margin-right: 30px; 
+}
+.tc1{
+  margin-left: 150px;
+  margin-top: -1px;
+  float: left;
+  color: #fff;
+  width: 600px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height: 60px;
+  font-family: manrope;
+}
+.icon2-text {
+  font-weight: bolder;
+  font-family: manrope;
+  display: flex;
+  align-items: center;
+  margin-left: 56px;
+  margin-top: 10px;
+  float: left;
+  color: #fff;
+  width: 400px;
+  font-size: 15px;
+}
+
+.icon2-text img {
+  margin-right: 30px; /* Adjust this value to control the space between icon and text */
+}
+
+.tc2{
+  margin-left: 150px;
+  margin-top: -20px;
+  float: left;
+  color: #fff;
+  width: 600px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height: 60px;
+  font-family: manrope;
+}
+.icon3-text {
+  font-weight: bolder;
+  font-family: manrope;
+  display: flex;
+  align-items: center;
+  margin-left: 56px;
+  margin-top: 10px;
+  float: left;
+  color: #fff;
+  width: 400px;
+  font-size: 15px;
+}
+
+.icon3-text img {
+  margin-right: 30px; /* Adjust this value to control the space between icon and text */
+}
+
+.tc3{
+  margin-left: 150px;
+  margin-top: -20px;
+  float: left;
+  color: #fff;
+  width: 600px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height: 60px;
+  font-family: manrope;
+}
+a{
+  
+  text-decoration: none;
+  color: #fff;
+}

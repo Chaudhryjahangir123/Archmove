@@ -1,0 +1,74 @@
+.login-container {
+    background-color: black;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 90%;
+    
+  }
+  body {
+  font-family: Arial, sans-serif;
+  background-color:#fd665e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  }
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 9px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .login-container input[type="submit"] {
+    background-color:#fd665e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+    color:#fd665e;
+    display: flex;
+    justify-content: center;
+  }
+  h1{
+    font-family: lato;
+    color:#fd665e;
+  }
+  .login-container input[type="submit"]:hover {
+    background-color: black;
+  }
+  
+  .login-container p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .h2{
+    font-family: lato;
+    color:#fd665e;
+  }
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: lato;
+    color:#fd665e;
+    font-size: 35px;
+  }
