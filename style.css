@@ -179,7 +179,7 @@ body {
 }
 
 .icon2-text img {
-  margin-right: 30px; /* Adjust this value to control the space between icon and text */
+  margin-right: 30px; 
 }
 
 .tc2{
@@ -209,7 +209,7 @@ body {
 }
 
 .icon3-text img {
-  margin-right: 30px; /* Adjust this value to control the space between icon and text */
+  margin-right: 30px; 
 }
 
 .tc3{
@@ -235,7 +235,7 @@ a{
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  /* Add any specific styles you want for the consultation section */
+  
 }
 
 .consultation-title {
@@ -253,7 +253,7 @@ a{
   flex-direction: column;
   max-width: 500px;
   width: 100%;
-  /* Add any specific styles you want for the consultation form */
+ 
 }
 
 .form-group {
@@ -276,7 +276,7 @@ a{
   border: none;
   color: white;
   border-radius: 4px;
-  /* Add any specific styles you want for the form inputs */
+ 
 }
 
 .form-textarea {
@@ -352,4 +352,123 @@ float: right;
   margin-top: 10px;
   font-size: 16px;
   text-align: center;
+}
+.design-gallery-section {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-title {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.architects-section {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.architects-title {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.architects-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.architect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.architect-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.architect-name {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.architect-description {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.articles-section {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articles-title {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.articles-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.article-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.article-title {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 20px 0;
+}
+
+.article-date {
+  font-size: 14px;
+  color: #888;
+}
+
+.article-description {
+  font-size: 16px;
+  line-height: 1.6;
 }
