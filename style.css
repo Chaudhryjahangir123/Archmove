@@ -230,3 +230,126 @@ a{
   text-decoration: none;
   color: #fff;
 }
+.consultation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  /* Add any specific styles you want for the consultation section */
+}
+
+.consultation-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 44px;
+  font-weight: bolder;
+  color:white;
+  margin-bottom: 30px;
+  background-color: #fd665e;
+  border-radius: 10px;
+}
+
+.consultation-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 100%;
+  /* Add any specific styles you want for the consultation form */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+}
+
+.form-label {
+  font-family: manrope;
+  font-size: 18px;
+  color: white;
+  
+}
+
+.form-input {
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: #282828;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  /* Add any specific styles you want for the form inputs */
+}
+
+.form-textarea {
+  resize: vertical;
+  
+}
+
+.form-submit {
+  background-color: #fd665e;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: manrope;
+  font-size: 16px;
+  
+}
+.logo {
+  width: 80px;
+  height: 40px;
+}
+.right
+{
+float: right;
+}
+.cbuttons {
+  margin-left: auto;
+}
+
+.signin-button {
+  background-color: #171717;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 5px;
+  cursor: pointer;
+  font-family: manrope;
+}
+.how-it-works-section {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-it-works-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.step-number {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fd665e;
+}
+
+.step-description {
+  font-family: manrope;
+  max-width: 600px;
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+}
