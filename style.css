@@ -418,7 +418,7 @@ float: right;
   border-radius: 10px;
 }
 .architects-section {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: manrope;
   color: white;
   padding: 50px;
   display: flex;
@@ -462,7 +462,7 @@ float: right;
   line-height: 1.6;
 }
 .articles-section {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: manrope;
   color: white;
   padding: 50px;
   display: flex;
