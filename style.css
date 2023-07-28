@@ -230,45 +230,29 @@ a{
   text-decoration: none;
   color: #fff;
 }
-.consultation-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 50px;
-  
+
+/* Reset default form styles */
+form {
+  margin: 0;
 }
 
-.consultation-title {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 44px;
-  font-weight: bolder;
-  color:white;
-  margin-bottom: 30px;
-  background-color: #fd665e;
-  border-radius: 10px;
-}
-
+/* Center the form on the page */
 .consultation-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  width: 100%;
- 
+  margin: 0 auto;
 }
 
-.form-group {
-  margin-bottom: 20px;
-  
-}
-
+/* Style form labels */
 .form-label {
-  font-family: manrope;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 18px;
   color: white;
-  
+  margin-bottom: 5px;
 }
 
-.form-input {
+/* Style form inputs and textarea */
+.form-input,
+.form-textarea {
   padding: 10px;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
@@ -276,13 +260,19 @@ a{
   border: none;
   color: white;
   border-radius: 4px;
- 
+  width: 100%;
 }
 
-.form-textarea {
-  resize: vertical;
-  
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #888;
 }
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
 
 .form-submit {
   background-color: #fd665e;
@@ -291,9 +281,57 @@ a{
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 6px;
-  font-family: manrope;
+  font-family: 'Manrope', sans-serif;
   font-size: 16px;
-  
+  width: 100%;
+  max-width: 200px; 
+  margin: 0 auto;
+}
+
+
+.consultation-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 44px;
+  font-weight: bolder;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fd665e;
+  margin-bottom: 40px;
+}
+
+
+.consultation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  max-width: 800px; 
+  margin: 0 auto;
+  border: 2px solid #fd665e;
+  border-radius: 10px;
+}
+
+
+.form-input:invalid,
+.form-textarea:invalid {
+  border: 2px solid #fd665e;
+}
+
+.form-input:valid,
+.form-textarea:valid {
+  border: 2px solid #4caf50;
+}
+
+@media screen and (max-width: 768px) {
+  .consultation-section {
+    padding: 30px;
+  }
+  .consultation-title {
+    font-size: 36px;
+    padding: 15px 30px;
+  }
 }
 .logo {
   width: 80px;
