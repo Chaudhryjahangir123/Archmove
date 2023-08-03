@@ -231,17 +231,17 @@ a{
   color: #fff;
 }
 
-/* Reset default form styles */
+
 form {
   margin: 0;
 }
 
-/* Center the form on the page */
+
 .consultation-form {
   margin: 0 auto;
 }
 
-/* Style form labels */
+
 .form-label {
   display: block;
   font-family: 'Times New Roman', Times, serif;
@@ -250,7 +250,7 @@ form {
   margin-bottom: 5px;
 }
 
-/* Style form inputs and textarea */
+
 .form-input,
 .form-textarea {
   padding: 10px;
@@ -275,7 +275,7 @@ form {
 
 
 .form-submit {
-  background-color: #fd665e;
+  background-color:#fd665e;
   color: #fff;
   border: none;
   padding: 10px 15px;
@@ -321,7 +321,7 @@ form {
 
 .form-input:valid,
 .form-textarea:valid {
-  border: 2px solid #4caf50;
+  border: 2px solid #fd665e;
 }
 
 @media screen and (max-width: 768px) {
@@ -329,7 +329,7 @@ form {
     padding: 30px;
   }
   .consultation-title {
-    font-size: 36px;
+    font-size: 38px;
     padding: 15px 30px;
   }
 }
@@ -588,4 +588,124 @@ float: right;
   margin-top: 60px;
  justify-content: center;
   
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .cbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .button {
+    margin: 5px;
+  }
+
+  .button2,
+  .signin-button {
+    display: none;
+  }
+
+  .text {
+    font-size: 30px;
+    padding: 30px;
+  }
+
+  .mainpage,
+  .secpage,
+  .thpg,
+  .fpg,
+  .lastpg {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fimg,
+  .secimg,
+  .thimg,
+  .lastimg {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .content,
+  .text2,
+  .thtxt,
+  .quote,
+  .author,
+  .lasttxt {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .icon-text,
+  .icon2-text,
+  .icon3-text {
+    margin: 10px 0;
+  }
+
+  .consultation-title,
+  .how-it-works-title,
+  .gallery-title,
+  .architects-title,
+  .articles-title {
+    font-size: 36px;
+  }
+
+  .step-number {
+    font-size: 24px;
+  }
+
+  .step-description,
+  .article-description,
+  .architect-description {
+    font-size: 14px;
+  }
+
+  .form-label {
+    font-size: 16px;
+  }
+
+  .form-input,
+  .form-textarea,
+  .form-submit {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .consultation-section,
+  .how-it-works-section,
+  .design-gallery-section,
+  .architects-section,
+  .articles-section,
+  .fpg,
+  .lastpg,
+  .partner {
+    padding: 20px;
+  }
+
+  .icon-text img,
+  .icon2-text img,
+  .icon3-text img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .icon1,
+  .icon2,
+  .icon3 {
+    margin-left: 0;
+  }
 }
